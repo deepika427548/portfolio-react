@@ -1,0 +1,134 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-right: 0px;
+
+}
+.contact-title h1{
+   padding:0px 30px;
+   font-size: 80px;
+   font-weight: 600;
+}
+.contact-section{
+    display: flex;
+    gap:100px;
+    /* margin-left:100px; */
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.contact-left h1{
+    font-size: 80px;
+    font-weight: 700;
+     background:linear-gradient(270deg,rgb(37, 230, 244),rgb(188, 21, 115));
+     background-clip:text ;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.contact-left p{
+    max-width:450px;
+    color:white;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    color:white;
+    font-size: 22px;
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap:20px;    
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:24px;
+}
+.contact-right label{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact-right input{
+    border:none;
+    width:450px;
+    height:78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: white;
+    font-family: Outfit;
+    font-size:20px;
+}
+
+.contact-right textarea{
+    width:400px;
+    border:none;
+    padding:25px;
+    border-radius: 4px;
+    background:#32323c ;
+    color:white;
+    font-family: Outfit;
+    font-size: 20px;
+
+}
+.contact-submit{
+    border:none;
+    color:white;
+    border-radius: 50px;
+    background:linear-gradient(270deg,rgb(37, 230, 244),rgb(188, 21, 115));
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+@media(max-width:768px){
+    .contact{
+        gap:50px;
+        margin:50px 70px;
+        align-items: start;
+    }
+    .contact h1{
+        padding:0px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+.contact-left h1{
+    font-size: 54px;
+    
+}
+.contact-left p{
+    font-size: 18px;
+
+}
+.contact-details{
+    gap:20px;
+}
+.contact-detail img{
+width:30px;
+
+}
+
+}
+.contact-right span{
+    color:red;
+}
